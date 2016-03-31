@@ -1,0 +1,18 @@
+Reasonable ranges:
+
+Taken on a working state in the working studio, normal light. LRodil reading is affected by overstretching caused by bottle placed between sensor mount and body.
+
+CSalter
+max +447907.3553
+min +415125.9908
+
+LRodil
+max +199661.1475
+min +177781.2348
+
+
+Factors that affect readings:
+- How stretched is the elastic where the electrode is mounted => body perimeter
+- When elastic is overstretched, readings seem to have a narrower range.
+
+

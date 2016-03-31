@@ -1,0 +1,18 @@
+Find device's MAC address:
+$ hcitool scan
+
+Do bluetooth binding:
+$ bluez-simple-agent hci0 00:A0:96:1B:48:15
+
+Start server:
+$ ./tmsi_server -a 00:A0:96:1B:48:15 -c EF -E Resp1 -F Resp2 -s 4
+
+Start client (seems to crash):
+$ ./tmsi_client -c EF -E Resp1,16 -v 0x01
+
+To browse the data capture use EDF browser:
+$ edfbrowser pp00_20140930T160349.bdf
+
+
+Server binds to port 16000 and listens to incoming connections. 
+
